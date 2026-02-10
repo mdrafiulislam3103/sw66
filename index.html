@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>axcrypto - Complete Crypto P2P Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#667eea',
+              secondary: '#764ba2',
+              success: '#4cd964',
+              danger: '#ff3b30',
+              warning: '#ff9500',
+              darkBg: '#0a0e17',
+              darkCard: '#1a1f2e',
+              darkBorder: '#2a2f3d',
+              textPrimary: '#ffffff',
+              textSecondary: '#a0a0a0',
+            },
+            backgroundImage: {
+              'primary-gradient': 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+              'success-gradient': 'linear-gradient(135deg, #4cd964 0%, #5ac8fa 100%)',
+              'warning-gradient': 'linear-gradient(135deg, #ff9500 0%, #ffc107 100%)',
+              'danger-gradient': 'linear-gradient(135deg, #ff3b30 0%, #ff9500 100%)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #0a0e17;
+        color: white;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0a0e17;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #2a2f3d;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #667eea;
+      }
+      .fade-in {
+        animation: fadeIn 0.6s ease-out forwards;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/"
+  }
+}
+</script>
+</head>
+<body class="min-h-screen">
+    <div id="root"></div>
+</body>
+</html>
